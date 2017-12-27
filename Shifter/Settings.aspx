@@ -7,14 +7,18 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <div class="checkbox">
         <label>
-            <input type="checkbox" value="">Option 1</label>
+            <input id="cbCreate" type="checkbox" value="">Create</label>
     </div>
     <div class="checkbox">
         <label>
-            <input type="checkbox" value="">Option 2</label>
+            <input id="cbRead" type="checkbox" value="">Read</label>
     </div>
-    <div class="checkbox disabled">
+    <div class="checkbox">
         <label>
-            <input type="checkbox" value="" disabled>Option 3</label>
+            <input id="cbUpdate" type="checkbox" value="">Update</label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input id="cbDelete" type="checkbox" value="">Delete</label>
     </div>
 </asp:Content>
